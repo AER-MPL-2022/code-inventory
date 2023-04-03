@@ -5,6 +5,7 @@ This readme will guide you through the tasks necessary to work with the followin
 
 ### Step 1️⃣: Add Inventory Keys 🔑
 🔧 Add logic for handling keypresses in the graphic_key_event() function, such as opening and closing the inventory, adding items, and dropping items.
+`./src/graphic/graphic_event.c`
 
 ### Step 2️⃣: Add Inventory Switch 🔄
 🔧 Implement the inventory_switch(), inventory_open(), and inventory_close() functions to open and close the inventory as needed.
