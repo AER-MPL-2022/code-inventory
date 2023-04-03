@@ -9,15 +9,19 @@ This readme will guide you through the tasks necessary to work with the followin
 
 ### Step 2️⃣: Add Inventory Switch 🔄
 🔧 Implement the inventory_switch(), inventory_open(), and inventory_close() functions to open and close the inventory as needed.
+`./src/inventory/inventory_event.c`
 
 ### Step 3️⃣: Create Inventory Objects 🎨
 🔧 Add logic to the inventory_create_elements() function for initializing item buttons, instantiating items, and updating inventory text.
+`./src/inventory/inventory_create.c`
 
 ### Step 4️⃣: Destroy Elements 💣
 🔧 Implement the inventory_destroy_elements() function to delete inventory elements when closing the inventory.
+`./src/inventory/inventory_destroy.c`
 
 ### Step 5️⃣: Mouse Management 🖱️
 🔧 Add logic to the inventory_mouse_event() function to handle mouse interactions with inventory items.
+`./src/inventory/inventory_mouse_event.c`
 
 ### Step 6️⃣: Add a New Item ➕
 🔧 Implement the inventory_add() function to add a new item to the inventory and update the inventory.
