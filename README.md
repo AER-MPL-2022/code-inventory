@@ -25,9 +25,11 @@ This readme will guide you through the tasks necessary to work with the followin
 
 ### Step 6️⃣: Add a New Item ➕
 🔧 Implement the inventory_add() function to add a new item to the inventory and update the inventory.
+`./src/inventory/inventory_add.c`
 
 ### Step 7️⃣: Remove an Item from the Box 📦
 🔧 Add logic to the drop_item() function to remove an item from a box and update the inventory.
+`./src/inventory/inventory_add.c`
 
 ### Step 8️⃣: Set Inventory Title and Description 🏷️
 🔧 Implement the inventory_set_title() and inventory_set_description() functions to set or update the inventory's title and description.
