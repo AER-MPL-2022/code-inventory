@@ -37,7 +37,7 @@ This readme will guide you through the tasks necessary to work with the followin
 
 ### Step 9️⃣: Update Inventory Text 📄
 🔧 Add logic to the inventory_text_update() function to update the inventory text based on the selected box and item.
-`./src/inventory/inventory_text_update.c`
+`./src/inventory/inventory_text.c`
 
 ## ⚙️ How the Infrastructure Works (Inventory-focused)
 The infrastructure consists of various structures and enums that help manage the game project's inventory, graphical elements, and interactions.
