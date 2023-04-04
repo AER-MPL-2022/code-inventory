@@ -24,18 +24,20 @@ This readme will guide you through the tasks necessary to work with the followin
 `./src/inventory/inventory_mouse_event.c`
 
 ### Step 6️⃣: Add a New Item ➕
-🔧 Implement the inventory_add() function to add a new item to the inventory and update the inventory.
+🔧 Implement the inventory_add() function to add a new item to the inventory and update the inventory.           
 `./src/inventory/inventory_add.c`
 
 ### Step 7️⃣: Remove an Item from the Box 📦
 🔧 Add logic to the drop_item() function to remove an item from a box and update the inventory.
-`./src/inventory/inventory_add.c`
+`./src/inventory/inventory_remove.c`
 
 ### Step 8️⃣: Set Inventory Title and Description 🏷️
 🔧 Implement the inventory_set_title() and inventory_set_description() functions to set or update the inventory's title and description.
+`./src/inventory/inventory_text.c`
 
 ### Step 9️⃣: Update Inventory Text 📄
 🔧 Add logic to the inventory_text_update() function to update the inventory text based on the selected box and item.
+`./src/inventory/inventory_text_update.c`
 
 ## ⚙️ How the Infrastructure Works (Inventory-focused)
 The infrastructure consists of various structures and enums that help manage the game project's inventory, graphical elements, and interactions.
